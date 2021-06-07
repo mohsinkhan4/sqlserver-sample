@@ -1,3 +1,4 @@
+/* From Remote */
 /*==============================================================*/
 /* CREATING DATABASE                                            */
 /*==============================================================*/
@@ -686,7 +687,7 @@ AND Product.Id = OrderItem.ProductId
 AND SupplierProductCost.Id = Product.SupplierCostId
 AND Supplier.Id = SupplierProductCost.SupplierId
 AND SupplierId = 18
-AND Product.ProductName = 'Côte de Blaye'
+AND Product.ProductName = 'CÃ´te de Blaye'
 
 /*=======================================================================================*/
 /* TASK 3.3 Create a table with columns for CustomerId and Average Weekly Spend Quartile */
